@@ -17,7 +17,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "postman-cloud:///1efe21d2-a44d-4de0-b2c5-cc7d06e612d1"
+							"src": "postman-cloud:///1efe9b03-1eeb-4c60-a1be-3f8f3be0c2ad"
 						}
 					]
 				},
@@ -31,6 +31,29 @@
 					"path": [
 						"api",
 						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5001/api/files",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/api/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"files"
 					]
 				}
 			},
