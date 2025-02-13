@@ -62,7 +62,7 @@ API_SECRET=your_cloudinary_api_secret
 
 ```
 4️⃣ Start the Server
-``
+```
 npm start
 ```
 The server will run at http://localhost:5001
@@ -105,6 +105,8 @@ Response:
 For any queries, feel free to reach out:
 
 ### GitHub: https://github.com/somugowdasoft
+
+
 
 
 
